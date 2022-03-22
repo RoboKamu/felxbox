@@ -1,0 +1,36 @@
+html {
+    /* Gör bakgrunden för hemsidan röd (crimson) eftersom det är efes favorit färg. */
+    background-color: crimson;
+    /*Göm också scroll wheel för att hemidan ska see finare ut*/
+    overflow: hidden;
+}
+
+/* redigera texten */
+h1 {
+    /* gör backgrunden till texten blå (dodgerblå) eftersom det är eges favorit färg */ 
+    background-color: dodgerblue;
+    /* Lägg texten i mitten */
+    text-align: center;
+}
+
+/* Rad 1 */
+#img1 {
+    /* sätt display till flex */
+    display: flex;
+    /* fördela utrymmet mellan bilderna jämt på hemsidan */
+    justify-content: space-evenly;
+    /* lägg alla bilder i center på sidan */
+    align-items: center;
+    /* gör lite utrymme under första raden så att bilderna inte nuddar varandra */ 
+    margin-bottom: 2%;
+}
+
+/* Rad 2 */
+#img2 {
+    /* sätt displat till flex */
+    display: flex;
+    /* Läg bilderna på rad, jämt fördelat som första raden */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
